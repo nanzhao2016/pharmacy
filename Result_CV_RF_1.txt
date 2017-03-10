@@ -1,0 +1,42 @@
+Summary:
+All the combinations of parameters:
+<bound method BaseEstimator.get_params of GridSearchCV(cv=20, error_score='raise',
+       estimator=RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=-1,
+            oob_score=True, random_state=None, verbose=1, warm_start=False),
+       fit_params={}, iid=True, n_jobs=1,
+       param_grid={'min_samples_split': [2, 3, 5], 'n_estimators': [5, 10, 30, 100], 'min_samples_leaf': [3, 5, 10, 15]},
+       pre_dispatch='2*n_jobs', refit=True, scoring=None, verbose=0)>
+All the scores in differnt combinations of parameters:
+[mean: 0.95114, std: 0.00146, params: {'min_samples_split': 2, 'n_estimators': 5, 'min_samples_leaf': 3}, mean: 0.95263, std: 0.00133, params: {'min_samples_split': 2, 'n_estimators': 10, 'min_samples_leaf': 3}, mean: 0.95313, std: 0.00115, params: {'min_samples_split': 2, 'n_estimators': 30, 'min_samples_leaf': 3}, mean: 0.95307, std: 0.00096, params: {'min_samples_split': 2, 'n_estimators': 100, 'min_samples_leaf': 3}, mean: 0.95134, std: 0.00166, params: {'min_samples_split': 3, 'n_estimators': 5, 'min_samples_leaf': 3}, mean: 0.95240, std: 0.00101, params: {'min_samples_split': 3, 'n_estimators': 10, 'min_samples_leaf': 3}, mean: 0.95297, std: 0.00115, params: {'min_samples_split': 3, 'n_estimators': 30, 'min_samples_leaf': 3}, mean: 0.95304, std: 0.00120, params: {'min_samples_split': 3, 'n_estimators': 100, 'min_samples_leaf': 3}, mean: 0.95141, std: 0.00173, params: {'min_samples_split': 5, 'n_estimators': 5, 'min_samples_leaf': 3}, mean: 0.95252, std: 0.00111, params: {'min_samples_split': 5, 'n_estimators': 10, 'min_samples_leaf': 3}, mean: 0.95310, std: 0.00096, params: {'min_samples_split': 5, 'n_estimators': 30, 'min_samples_leaf': 3}, mean: 0.95313, std: 0.00103, params: {'min_samples_split': 5, 'n_estimators': 100, 'min_samples_leaf': 3}, mean: 0.95185, std: 0.00098, params: {'min_samples_split': 2, 'n_estimators': 5, 'min_samples_leaf': 5}, mean: 0.95263, std: 0.00132, params: {'min_samples_split': 2, 'n_estimators': 10, 'min_samples_leaf': 5}, mean: 0.95296, std: 0.00097, params: {'min_samples_split': 2, 'n_estimators': 30, 'min_samples_leaf': 5}, mean: 0.95300, std: 0.00091, params: {'min_samples_split': 2, 'n_estimators': 100, 'min_samples_leaf': 5}, mean: 0.95205, std: 0.00108, params: {'min_samples_split': 3, 'n_estimators': 5, 'min_samples_leaf': 5}, mean: 0.95245, std: 0.00140, params: {'min_samples_split': 3, 'n_estimators': 10, 'min_samples_leaf': 5}, mean: 0.95292, std: 0.00094, params: {'min_samples_split': 3, 'n_estimators': 30, 'min_samples_leaf': 5}, mean: 0.95303, std: 0.00104, params: {'min_samples_split': 3, 'n_estimators': 100, 'min_samples_leaf': 5}, mean: 0.95172, std: 0.00122, params: {'min_samples_split': 5, 'n_estimators': 5, 'min_samples_leaf': 5}, mean: 0.95263, std: 0.00106, params: {'min_samples_split': 5, 'n_estimators': 10, 'min_samples_leaf': 5}, mean: 0.95291, std: 0.00097, params: {'min_samples_split': 5, 'n_estimators': 30, 'min_samples_leaf': 5}, mean: 0.95314, std: 0.00096, params: {'min_samples_split': 5, 'n_estimators': 100, 'min_samples_leaf': 5}, mean: 0.95193, std: 0.00132, params: {'min_samples_split': 2, 'n_estimators': 5, 'min_samples_leaf': 10}, mean: 0.95248, std: 0.00086, params: {'min_samples_split': 2, 'n_estimators': 10, 'min_samples_leaf': 10}, mean: 0.95301, std: 0.00099, params: {'min_samples_split': 2, 'n_estimators': 30, 'min_samples_leaf': 10}, mean: 0.95293, std: 0.00087, params: {'min_samples_split': 2, 'n_estimators': 100, 'min_samples_leaf': 10}, mean: 0.95195, std: 0.00120, params: {'min_samples_split': 3, 'n_estimators': 5, 'min_samples_leaf': 10}, mean: 0.95276, std: 0.00094, params: {'min_samples_split': 3, 'n_estimators': 10, 'min_samples_leaf': 10}, mean: 0.95285, std: 0.00067, params: {'min_samples_split': 3, 'n_estimators': 30, 'min_samples_leaf': 10}, mean: 0.95298, std: 0.00079, params: {'min_samples_split': 3, 'n_estimators': 100, 'min_samples_leaf': 10}, mean: 0.95220, std: 0.00061, params: {'min_samples_split': 5, 'n_estimators': 5, 'min_samples_leaf': 10}, mean: 0.95246, std: 0.00100, params: {'min_samples_split': 5, 'n_estimators': 10, 'min_samples_leaf': 10}, mean: 0.95283, std: 0.00086, params: {'min_samples_split': 5, 'n_estimators': 30, 'min_samples_leaf': 10}, mean: 0.95296, std: 0.00084, params: {'min_samples_split': 5, 'n_estimators': 100, 'min_samples_leaf': 10}, mean: 0.95213, std: 0.00092, params: {'min_samples_split': 2, 'n_estimators': 5, 'min_samples_leaf': 15}, mean: 0.95258, std: 0.00062, params: {'min_samples_split': 2, 'n_estimators': 10, 'min_samples_leaf': 15}, mean: 0.95278, std: 0.00077, params: {'min_samples_split': 2, 'n_estimators': 30, 'min_samples_leaf': 15}, mean: 0.95292, std: 0.00069, params: {'min_samples_split': 2, 'n_estimators': 100, 'min_samples_leaf': 15}, mean: 0.95232, std: 0.00088, params: {'min_samples_split': 3, 'n_estimators': 5, 'min_samples_leaf': 15}, mean: 0.95269, std: 0.00072, params: {'min_samples_split': 3, 'n_estimators': 10, 'min_samples_leaf': 15}, mean: 0.95285, std: 0.00083, params: {'min_samples_split': 3, 'n_estimators': 30, 'min_samples_leaf': 15}, mean: 0.95295, std: 0.00077, params: {'min_samples_split': 3, 'n_estimators': 100, 'min_samples_leaf': 15}, mean: 0.95209, std: 0.00103, params: {'min_samples_split': 5, 'n_estimators': 5, 'min_samples_leaf': 15}, mean: 0.95267, std: 0.00106, params: {'min_samples_split': 5, 'n_estimators': 10, 'min_samples_leaf': 15}, mean: 0.95291, std: 0.00074, params: {'min_samples_split': 5, 'n_estimators': 30, 'min_samples_leaf': 15}, mean: 0.95295, std: 0.00069, params: {'min_samples_split': 5, 'n_estimators': 100, 'min_samples_leaf': 15}]
+Best estimator:
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features=None, max_leaf_nodes=None,
+            min_samples_leaf=5, min_samples_split=5,
+            min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=-1,
+            oob_score=True, random_state=None, verbose=1, warm_start=False)
+Best score:
+0.953141590878
+Best parameters:
+{'min_samples_split': 5, 'n_estimators': 100, 'min_samples_leaf': 5}
+Prediction of Class:
+[Parallel(n_jobs=4)]: Done  42 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Done 100 out of 100 | elapsed:    0.4s finished
+[0 0 0 ..., 0 0 0]
+Probability of prediction:
+[Parallel(n_jobs=4)]: Done  42 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Done 100 out of 100 | elapsed:    0.4s finished
+[[  1.00000000e+00   0.00000000e+00]
+ [  9.99729730e-01   2.70270270e-04]
+ [  8.55614238e-01   1.44385762e-01]
+ ...,
+ [  9.96750000e-01   3.25000000e-03]
+ [  9.88992063e-01   1.10079365e-02]
+ [  9.95238095e-01   4.76190476e-03]]
+ 
+ 
+ os.path.join('C:/spark/bin/data/table_sante/', 'x_train_pca.txt')
+ np.savetxt('C:/spark/bin/data/table_sante/x_train_pca.txt', df_X_train_pca)
+ test = np.loadtxt('C:/spark/bin/data/table_sante/x_train_pca.txt')
